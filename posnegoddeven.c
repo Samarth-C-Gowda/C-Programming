@@ -17,11 +17,14 @@ void main() {
 	} 
 
 	} 
-     if (number<0)
+  
+    else if (number<0)
 	{
         printf("The number %d is negative.\n", number);
 	} 
-     else 
+ 
+    	else
+	{
 		printf("The number %d is zero.\n", number);
+	}
 	
-}   

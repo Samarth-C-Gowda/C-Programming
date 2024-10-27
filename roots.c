@@ -20,7 +20,7 @@ void main()
 		printf("Roots = %f,%f \n",r1,r2);
 
 
-	}else if(det<0){
+	}else {
 		printf("Roots are imaginary\n");
 	}
 	

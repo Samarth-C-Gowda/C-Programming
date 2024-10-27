@@ -2,13 +2,13 @@
 void main()
 {
 	float a,b,answer;
-	char ch='';
+	char ch;
 
-	printf("ENTER OPERATION");
+	printf("ENTER OPERATION\n");
 	scanf("%c",&ch);
 
-	print("ENTER 2 NUMBER");
-	scanf("%f%f",&a,&b);
+	printf("ENTER 2 NUMBER\n");
+	scanf("%f %f",&a,&b);
 
 	switch(ch)
 	{
